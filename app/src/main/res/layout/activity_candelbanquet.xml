@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gray"
+    tools:context=".candelbanquet">
+
+
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="270dp"
+        android:columnWidth="10dp"
+        android:numColumns="2"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        android:stretchMode="columnWidth">
+    </GridView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="here you get full of service, here is fully trained waiter's
+  Marvi Lawn Marriage Hall can accommodate up to 350 people all at once,
+that makes them an ideal venue for grand weddings with huge celebrations.
+ They offer their stunning banquet hall as an event space to carry out all your wedding functions in the most pleasant manner."
+        android:textColor="@android:color/holo_orange_light"
+
+        android:textSize="18dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Their list of facilities and amenities offered by them include:"
+        android:textColor="@color/design_default_color_secondary"
+        android:textStyle="bold"
+        android:textSize="18dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Basic lighting, electricity and  backup"
+        android:textColor="@android:color/holo_green_light"
+
+        android:textSize="18dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:textSize="18dp"
+        android:textColor="@android:color/holo_green_light"
+        android:text="Valet parking">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="18dp"
+        android:textColor="@android:color/holo_green_light"
+        android:text="Furniture">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="18dp"
+        android:textColor="@android:color/holo_green_light"
+        android:text="Bridal Room">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Service Staff"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="18dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="18dp"
+        android:textColor="@android:color/holo_green_light"
+        android:text="Sound/Music Licensed">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="18dp"
+        android:textColor="@android:color/holo_blue_bright"
+        android:text="Contact us for your booking and details">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:text="                             0312 2438059 ">
+
+    </TextView>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

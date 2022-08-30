@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/setup"
+    tools:context=".karachihotels">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardviewhilltop"
+                android:layout_width="396dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5sp"
+                android:layout_marginTop="5sp"
+                android:elevation="4sp"
+                app:cardBackgroundColor="@color/WHEAT"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="30dp">
+
+                <ImageView
+                    android:layout_width="199dp"
+                    android:layout_height="190dp"
+                    android:layout_marginRight="200dp"
+                    android:background="@drawable/candstage">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="190dp"
+                    android:gravity="center"
+                    android:text="CANDEL BANQUET "
+                    android:textColor="@color/purple_700"
+                    android:textSize="35dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="0dp"
+                    android:gravity="right"
+                    android:text="BOOKING 150000 PKR "
+                    android:textColor="@color/black"
+                    android:textSize="19dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="0dp"
+                    android:gravity="right"
+                    android:text="Capacity = 700 peoples"
+                    android:textColor="@color/black"
+                    android:textSize="19dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="231dp"
+                    android:layout_height="119dp"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="80dp"
+                    android:layout_marginRight="0dp"
+                    android:gravity="right"
+                    android:text="Address:Johrmorr road"
+                    android:textColor="@color/black"
+                    android:textSize="19dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="226dp"
+                    android:layout_height="76dp"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginRight="0dp"
+                    android:gravity="right"
+                    android:text="Gulistan E Johr karachi"
+                    android:textColor="@color/black"
+                    android:textSize="19dp">
+
+                </TextView>
+
+                <TextView
+
+                    android:layout_width="212dp"
+                    android:layout_height="132dp"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="125dp"
+                    android:layout_marginRight="0dp"
+                    android:gravity="right"
+
+                    android:textColor="@color/black"
+                    android:textSize="19dp">
+
+                </TextView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardviewcandel"
+                android:layout_width="396dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5sp"
+                android:layout_marginTop="5sp"
+                android:elevation="4sp"
+                app:cardBackgroundColor="@color/WHEAT"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="30dp">
+
+                <ImageView
+                    android:layout_width="199dp"
+                    android:layout_height="190dp"
+                    android:layout_marginRight="200dp"
+                    android:background="@drawable/hilltopstage2">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="190dp"
+                    android:gravity="center"
+                    android:text="HILLTOP BANQUET "
+                    android:textColor="@color/purple_700"
+                    android:textSize="35dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="0dp"
+                    android:gravity="right"
+                    android:text="BOOKING 200000 PKR "
+                    android:textColor="@color/black"
+                    android:textSize="19dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="0dp"
+                    android:gravity="right"
+                    android:text="Capacity = 900 peoples"
+                    android:textColor="@color/black"
+                    android:textSize="19dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="231dp"
+                    android:layout_height="119dp"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="80dp"
+                    android:layout_marginRight="0dp"
+                    android:gravity="right"
+                    android:text="Address:Johrmorr road"
+                    android:textColor="@color/black"
+                    android:textSize="19dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="226dp"
+                    android:layout_height="76dp"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginRight="0dp"
+                    android:gravity="right"
+                    android:text="Gulistan E Johr karachi"
+                    android:textColor="@color/black"
+                    android:textSize="19dp">
+
+                </TextView>
+
+                <TextView
+
+                    android:layout_width="212dp"
+                    android:layout_height="132dp"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="125dp"
+                    android:layout_marginRight="0dp"
+                    android:gravity="right"
+                    android:text="B 100 johr morr service road                                  "
+                    android:textColor="@color/black"
+                    android:textSize="19dp">
+
+                </TextView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardviewmeadows"
+                android:layout_width="396dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5sp"
+                android:layout_marginTop="5sp"
+                android:elevation="4sp"
+                app:cardBackgroundColor="@color/WHEAT"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="30dp">
+
+                <ImageView
+                    android:layout_width="199dp"
+                    android:layout_height="190dp"
+                    android:layout_marginRight="200dp"
+                    android:background="@drawable/meadotitle">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="190dp"
+                    android:gravity="center"
+                    android:text="MEADOWS BANQUET "
+                    android:textColor="@color/purple_700"
+                    android:textSize="35dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="0dp"
+                    android:gravity="right"
+                    android:text="BOOKING 300000 PKR "
+                    android:textColor="@color/black"
+                    android:textSize="19dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="0dp"
+                    android:gravity="right"
+                    android:text="Capacity = 1000 peoples"
+                    android:textColor="@color/black"
+                    android:textSize="18dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="231dp"
+                    android:layout_height="119dp"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="80dp"
+                    android:layout_marginRight="0dp"
+                    android:gravity="right"
+                    android:text="Address:Johrmorr road"
+                    android:textColor="@color/black"
+                    android:textSize="19dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="226dp"
+                    android:layout_height="76dp"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginRight="0dp"
+                    android:gravity="right"
+                    android:text="Gulistan E Johr karachi"
+                    android:textColor="@color/black"
+                    android:textSize="19dp">
+
+                </TextView>
+
+                <TextView
+
+                    android:layout_width="212dp"
+                    android:layout_height="132dp"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="125dp"
+                    android:layout_marginRight="0dp"
+                    android:gravity="right"
+                    android:text=" W4fh johr morr service road                                  "
+                    android:textColor="@color/black"
+                    android:textSize="19dp">
+
+                </TextView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/parsa"
+                android:layout_width="396dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5sp"
+                android:layout_marginTop="5sp"
+                android:elevation="4sp"
+                app:cardBackgroundColor="@color/WHEAT"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="30dp">
+
+                <ImageView
+                    android:layout_width="199dp"
+                    android:layout_height="190dp"
+                    android:layout_marginRight="200dp"
+                    android:background="@drawable/parsatitle">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="190dp"
+                    android:gravity="center"
+                    android:text="PARSA BANQUET "
+                    android:textColor="@color/purple_700"
+                    android:textSize="35dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="0dp"
+                    android:gravity="right"
+                    android:text="BOOKING 350000 PKR "
+                    android:textColor="@color/black"
+                    android:textSize="19dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="0dp"
+                    android:gravity="right"
+                    android:text="Capacity = 1500 peoples"
+                    android:textColor="@color/black"
+                    android:textSize="18dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="231dp"
+                    android:layout_height="119dp"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="80dp"
+                    android:layout_marginRight="0dp"
+                    android:gravity="right"
+                    android:text="Address:Johrmorr road"
+                    android:textColor="@color/black"
+                    android:textSize="19dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="226dp"
+                    android:layout_height="76dp"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginRight="0dp"
+                    android:gravity="right"
+                    android:text="Gulistan E Johr karachi"
+                    android:textColor="@color/black"
+                    android:textSize="19dp">
+
+                </TextView>
+
+                <TextView
+
+                    android:layout_width="212dp"
+                    android:layout_height="132dp"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="125dp"
+                    android:layout_marginRight="0dp"
+                    android:gravity="right"
+                    android:text="C 78,BLOCK 14 karachi "
+                    android:textColor="@color/black"
+                    android:textSize="19dp">
+
+                </TextView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/saffron"
+                android:layout_width="396dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5sp"
+                android:layout_marginTop="5sp"
+                android:elevation="4sp"
+                app:cardBackgroundColor="@color/WHEAT"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="30dp">
+
+                <ImageView
+                    android:layout_width="199dp"
+                    android:layout_height="190dp"
+                    android:layout_marginRight="200dp"
+                    android:background="@drawable/safrbanqtitle">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="190dp"
+                    android:gravity="center"
+                    android:text="SAFFRON BANQUET "
+                    android:textColor="@color/purple_700"
+                    android:textSize="35dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="0dp"
+                    android:gravity="right"
+                    android:text="BOOKING 400000 PKR "
+                    android:textColor="@color/black"
+                    android:textSize="19dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="0dp"
+                    android:gravity="right"
+                    android:text="Capacity = 2000 peoples"
+                    android:textColor="@color/black"
+                    android:textSize="18dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="210dp"
+                    android:layout_height="119dp"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="80dp"
+                    android:layout_marginRight="0dp"
+                    android:gravity="right"
+                    android:text="Address:W4F9+VP5،c-37"
+                    android:textColor="@color/black"
+                    android:textSize="18dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="226dp"
+                    android:layout_height="76dp"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginRight="0dp"
+                    android:gravity="right"
+                    android:text="Gulistan E Johr karachi"
+                    android:textColor="@color/black"
+                    android:textSize="19dp">
+
+                </TextView>
+
+                <TextView
+
+                    android:layout_width="212dp"
+                    android:layout_height="132dp"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="125dp"
+                    android:layout_marginRight="0dp"
+                    android:gravity="right"
+                    android:text="Block 15  gulistan johr  "
+                    android:textColor="@color/black"
+                    android:textSize="19dp">
+
+                </TextView>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

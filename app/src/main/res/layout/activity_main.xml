@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/pic"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Choose Your City"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="40dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="60dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/hyderabad"
+            android:layout_marginRight="50dp"
+            android:text="Hyderabad"
+            android:layout_marginTop="100dp"
+            android:textSize="30dp">
+
+        </Button>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/karachi"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:text="Karachi"
+            android:layout_marginTop="100dp"
+            android:textSize="30dp">
+
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

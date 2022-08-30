@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/hp/AndroidStudioProjects/finalproject/app/src/main/res/layout/activity_candelbanquet.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/finalproject/app/src/main/res/layout/activity_crownbaquet.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/finalproject/app/src/main/res/layout/activity_hiltopbanquet.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/finalproject/app/src/main/res/layout/activity_hyderabaddetailslider.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/finalproject/app/src/main/res/layout/activity_hyderabadhotels.xml" value="0.18" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/finalproject/app/src/main/res/layout/activity_karachihotels.xml" value="0.25" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/finalproject/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/finalproject/app/src/main/res/layout/activity_marina_banquet.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/finalproject/app/src/main/res/layout/activity_meadows_banquet.xml" value="0.19427083333333334" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/finalproject/app/src/main/res/layout/activity_moomalhall.xml" value="0.18" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/finalproject/app/src/main/res/layout/activity_parsa_banquet.xml" value="0.22" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/finalproject/app/src/main/res/layout/activity_qasimbanquet.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/finalproject/app/src/main/res/layout/activity_saffron_banquet.xml" value="0.20833333333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
